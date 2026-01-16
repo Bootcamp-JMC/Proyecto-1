@@ -1,14 +1,11 @@
+import "./style.css"
+
 const App = () => {
   return (
-    <div
-      style={{
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
-      <h1 style={{ textAlign: 'center' }}>Hello World to the Bootcamp</h1>
-    </div>
+    <div className="bg-blue-500 text-white p-4">Bienvenido al Bootcamp</div>
+
+
+
   );
 };
 
