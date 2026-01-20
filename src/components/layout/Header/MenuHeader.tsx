@@ -1,3 +1,4 @@
+import { ColoredButton } from "../../ui/ColoredButton"
 import { Hamburger } from "./Hamburger"
 
 
@@ -33,10 +34,8 @@ export const MenuHeader = () => {
                   <a href="" className="text-gray-700 hover:text-purple-600">Success Stories</a>
                   <a href="" className="text-gray-700 hover:text-purple-600">Pricing</a>
                   <a href="" className="text-gray-700 hover:text-purple-600">About</a>
-
-                  <button className="bg-[#7C3AED] rounded-xl h-12.5 w-40 hover:bg-purple-700"> 
-                    <span className="text-white">Apply Now </span>
-                  </button>
+                  
+                  <ColoredButton name="Apply Now" />
             </div>
 
             <Hamburger></Hamburger>

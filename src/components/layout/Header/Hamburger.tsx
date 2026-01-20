@@ -1,5 +1,6 @@
 import { useState } from "react"
 
+import { Menu } from "lucide-react";
 
 export const Hamburger = () => {
 
@@ -7,14 +8,16 @@ export const Hamburger = () => {
 
     function toggleMenu() {
     setIsOpen(!isOpen);
-    console.log(!isOpen ? "Abierto" : "Cerrado");
 }
 
     return (
         <>
 
-            <button className="lg:hidden rounded-xl p-3 bg-amber-500" onClick={toggleMenu}>
-                Click
+            <button
+                className="lg:hidden rounded-xl p-"
+                onClick={toggleMenu}
+                >
+                <Menu size={24} />
             </button>
 
                     
