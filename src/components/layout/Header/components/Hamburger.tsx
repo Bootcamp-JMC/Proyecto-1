@@ -1,6 +1,6 @@
 import { useState } from "react";
-
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import { HeaderLink } from "./HeaderLink";
 
 export const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,21 +11,21 @@ export const Hamburger = () => {
 
   return (
     <>
-      <button className="p- rounded-xl lg:hidden" onClick={toggleMenu}>
-        <Menu size={24} />
+      <button className="rounded-xl md:hidden" onClick={toggleMenu}>
+        {isOpen ? <X size={24} /> : <Menu size={24} />}
       </button>
 
       {isOpen && (
-        <div className="fixed inset-0 z-40 flex flex-col items-center justify-center gap-6 bg-gray-100 text-2xl text-purple-500 backdrop-blur-sm">
-          <a href="#">Curriculum</a>
-          <a href="#">Success Stories</a>
-          <a href="#">Pricing</a>
-          <a href="#">About</a>
+        <div className="absolute top-full right-0 flex w-full flex-col gap-4 px-4 py-4.25 backdrop-blur-lg">
+          <HeaderLink linkText="Curriculum" />
+          <HeaderLink linkText="Success Stories" />
+          <HeaderLink linkText="Pricing" />
+          <HeaderLink linkText="About" />
           <button
-            className="rounded-lg border-2 border-purple-400 bg-white px-6 py-2 text-black"
+            className="rounded-lg bg-violet-600 px-10 py-2 text-white"
             onClick={toggleMenu}
           >
-            Cerrar
+            Apply Now
           </button>
         </div>
       )}

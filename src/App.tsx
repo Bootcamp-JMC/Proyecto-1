@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       {/* Header */}
-      <MenuHeader></MenuHeader>
+      <MenuHeader />
 
       {/* Hero */}
 
