@@ -10,7 +10,7 @@ export const CustomButton = ({ name, variant }: CustomButtonProps) => {
     <button
       className={`h-10 w-31.75 rounded-[10px] ${
         variant === "solid"
-          ? "bg-[#7C3AED] text-white hover:bg-purple-700"
+          ? "bg-primary text-white hover:bg-purple-700"
           : "bg-white text-black hover:bg-gray-50"
       } `}
     >
