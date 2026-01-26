@@ -22,7 +22,7 @@ export const Hamburger = () => {
           <HeaderLink linkText="Pricing" />
           <HeaderLink linkText="About" />
           <button
-            className="rounded-lg bg-violet-600 px-10 py-2 text-white"
+            className="bg-primary hover:bg-primary/90 rounded-lg px-10 py-2 text-white"
             onClick={toggleMenu}
           >
             Apply Now

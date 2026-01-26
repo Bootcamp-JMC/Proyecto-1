@@ -2,7 +2,7 @@ export const Logo = () => {
   return (
     <>
       <div className="flex items-center gap-[7.5px] lg:px-17">
-        <div className="rounded-[14px] bg-purple-600 p-2">
+        <div className="bg-primary rounded-[14px] p-2">
           <svg
             viewBox="0 0 24 24"
             fill="currentColor"
@@ -12,9 +12,7 @@ export const Logo = () => {
           </svg>
         </div>
 
-        <h1 className="bg-linear-to-r from-purple-600 to-violet-600 bg-clip-text text-xl font-bold text-transparent">
-          AI Academy
-        </h1>
+        <h1 className="text-primary text-xl font-bold">AI Academy</h1>
       </div>
     </>
   );

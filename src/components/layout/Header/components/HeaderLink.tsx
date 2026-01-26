@@ -5,7 +5,7 @@ interface HeaderLink {
 
 export const HeaderLink = ({ linkText, linkTo = "" }: HeaderLink) => {
   return (
-    <a href={linkTo} className="text-gray-700 hover:text-purple-600">
+    <a href={linkTo} className="hover:text-primary text-gray-700">
       {linkText}
     </a>
   );
