@@ -6,9 +6,8 @@ import "./style.css";
 const App = () => {
   return (
     <>
-      <div className="flex h-screen flex-col">
-        {/* Header */}
-        <MenuHeader />
+      {/* Header */}
+      <MenuHeader />
 
         {/* Hero */}
         <div className="flex-1 bg-purple-500/2 pt-16.25">
