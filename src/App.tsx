@@ -1,19 +1,19 @@
-import { MenuHeader } from "./components/layout/Header/MenuHeader";
-
+import { BrowserRouter } from "react-router";
+import { Header } from "./components/layout/Header";
 import "./style.css";
 
 const App = () => {
   return (
-    <>
+    <BrowserRouter>
       {/* Header */}
-      <MenuHeader />
+      <Header />
 
       {/* Hero */}
 
       {/* Features */}
 
       {/* Curriculum */}
-    </>
+    </BrowserRouter>
   );
 };
 
