@@ -1,8 +1,19 @@
-import "./style.css"
+import { BrowserRouter } from "react-router";
+import { Header } from "./components/layout/Header";
+import "./style.css";
 
 const App = () => {
   return (
-    <div className="bg-blue-500 text-white p-4">Bienvenido al Bootcamp</div>
+    <BrowserRouter>
+      {/* Header */}
+      <Header />
+
+      {/* Hero */}
+
+      {/* Features */}
+
+      {/* Curriculum */}
+    </BrowserRouter>
   );
 };
 
