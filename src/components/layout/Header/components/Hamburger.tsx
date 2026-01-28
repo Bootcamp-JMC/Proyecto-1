@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { CustomLink } from "../../../ui/Customlink";
 
-
 export const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -17,7 +16,7 @@ export const Hamburger = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute top-full right-0 flex w-full flex-col gap-4 px-4 py-4.25 backdrop-blur-lg">
+        <div className="absolute top-[101%] right-0 flex w-full flex-col gap-4 px-4 py-4.25 backdrop-blur-lg">
           <CustomLink linkText="Curriculum" />
           <CustomLink linkText="Success Stories" />
           <CustomLink linkText="Pricing" />
