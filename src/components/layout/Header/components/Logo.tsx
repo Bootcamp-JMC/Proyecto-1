@@ -1,7 +1,7 @@
 export const Logo = () => {
   return (
     <>
-      <div className="flex items-center gap-[7.5px] lg:px-17">
+      <div className="flex items-center gap-2">
         <div className="bg-primary rounded-[14px] p-2">
           <svg
             viewBox="0 0 24 24"

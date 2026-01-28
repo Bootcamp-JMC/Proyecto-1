@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { HeaderLink } from "./HeaderLink";
+import { CustomLink } from "../../../ui/Customlink";
+
 
 export const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,10 +18,10 @@ export const Hamburger = () => {
 
       {isOpen && (
         <div className="absolute top-full right-0 flex w-full flex-col gap-4 px-4 py-4.25 backdrop-blur-lg">
-          <HeaderLink linkText="Curriculum" />
-          <HeaderLink linkText="Success Stories" />
-          <HeaderLink linkText="Pricing" />
-          <HeaderLink linkText="About" />
+          <CustomLink linkText="Curriculum" />
+          <CustomLink linkText="Success Stories" />
+          <CustomLink linkText="Pricing" />
+          <CustomLink linkText="About" />
           <button
             className="bg-primary hover:bg-primary/90 rounded-lg px-10 py-2 text-white"
             onClick={toggleMenu}
