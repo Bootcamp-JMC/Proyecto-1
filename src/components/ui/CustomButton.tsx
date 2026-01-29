@@ -8,7 +8,7 @@ type CustomButtonProps = {
 export const CustomButton = ({ name, variant }: CustomButtonProps) => {
   return (
     <button
-      className={`h-10 w-31.75 rounded-[10px] ${
+      className={`h-10 w-31.5 rounded-[10px] ${
         variant === "solid"
           ? "bg-primary hover:bg-primary/90 cursor-pointer text-white"
           : "bg-white text-black hover:bg-gray-50"

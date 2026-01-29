@@ -5,7 +5,7 @@ import { FeaturesList } from "./components/FeaturesList";
 
 export const Hero = () => {
   return (
-    <div className="pt-20">
+    <div className="pt-19.75">
       <div className="container mx-auto px-4 text-center lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <div className="text-bold mb-8 inline-flex max-w-4xl items-center gap-2 rounded-full bg-purple-100 bg-linear-30 px-4 py-2 text-sm text-purple-700">
@@ -28,7 +28,7 @@ export const Hero = () => {
               View Curriculum
             </button>
           </div>
-          <div className="m-3 flex justify-between gap-5 sm:gap-13 md:px-20 lg:px-40">
+          <div className="flex justify-between gap-5 sm:mx-1 sm:gap-18 md:mx-2 md:px-20 lg:px-40">
             <FeaturesHero features={FeaturesList} />
           </div>
         </div>
