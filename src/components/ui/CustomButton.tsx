@@ -1,20 +1,25 @@
 type ButtonVariant = "solid" | "outline";
 
 type CustomButtonProps = {
-  name: string;
+  buttonText: string;
   variant: ButtonVariant;
+  customWidth?: string;
 };
 
-export const CustomButton = ({ name, variant }: CustomButtonProps) => {
+export const CustomButton = ({
+  buttonText,
+  variant,
+  customWidth,
+}: CustomButtonProps) => {
   return (
     <button
-      className={`h-10 w-31.5 rounded-[10px] ${
+      className={`h-10 ${customWidth ? customWidth : "w-31.75"} rounded-[10px] ${
         variant === "solid"
           ? "bg-primary hover:bg-primary/90 cursor-pointer text-white"
           : "bg-white text-black hover:bg-gray-50"
       } `}
     >
-      <span className="text-white">{name}</span>
+      <span className="text-white">{buttonText}</span>
     </button>
   );
 };

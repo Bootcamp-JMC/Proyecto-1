@@ -1,6 +1,5 @@
 import { CustomLink } from "../../../ui/Customlink";
 
-
 export const Navigation = () => {
   return (
     <>
