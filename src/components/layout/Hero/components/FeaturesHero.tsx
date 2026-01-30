@@ -1,4 +1,5 @@
 interface FeatureProps {
+  id: string;
   label: string;
   value: string;
   valueIcon: string;
@@ -10,7 +11,7 @@ interface FeaturesProps {
 
 export const FeaturesHero = ({ features }: FeaturesProps) => {
   return features.map((feature) => (
-    <div key={feature.value + feature.label}>
+    <div key={feature.id}>
       <div className="flex items-center justify-center text-4xl font-bold text-purple-600">
         {feature.value + feature.valueIcon}
       </div>

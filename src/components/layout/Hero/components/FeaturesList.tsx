@@ -1,15 +1,18 @@
 export const FeaturesList = [
   {
-    value: "95%",
+    id: "1",
+    value: "95",
     label: "Job Placement",
-    valueIcon: "",
+    valueIcon: "%",
   },
   {
-    value: "500+",
+    id: "2",
+    value: "500",
     label: "Graduates",
-    valueIcon: "",
+    valueIcon: "+",
   },
   {
+    id: "3",
     value: "4.9",
     label: "Student Rating",
     valueIcon: "★",
