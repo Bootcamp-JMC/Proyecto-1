@@ -12,7 +12,6 @@ const App = () => {
 
       {/* Hero */}
       <Hero />
-      <Hero />
       {/* Features */}
 
       {/* Curriculum */}
