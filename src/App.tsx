@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router";
 import { Header } from "./components/layout/Header";
 
 import "./style.css";
+import { Features } from "./components/layout/Features/Features";
 
 const App = () => {
   return (
@@ -12,7 +13,9 @@ const App = () => {
 
       {/* Hero */}
       <Hero />
-      {/* Features */}
+
+      {/* {Features} */}
+      <Features />
 
       {/* Curriculum */}
     </BrowserRouter>
