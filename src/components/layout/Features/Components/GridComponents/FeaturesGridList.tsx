@@ -9,7 +9,7 @@ export interface FeaturesGridListProps {
   featuresList: FeaturesGridProps[];
 }
 const ICON_CLASS =
-  "h-14 w-14 rounded-xl bg-purple-100 stroke-current stroke-2 p-3 text-purple-600 transition-colors group-hover:text-white mb-6";
+  "h-14 w-14  rounded-[14px] bg-purple-100 stroke-current stroke-2 p-[14px] text-purple-600 mb-6 border-purple-500 group-hover:bg-purple-600 group-hover:text-white ";
 
 export const FeaturesGridList: FeaturesGridProps[] = [
   {
@@ -38,7 +38,7 @@ export const FeaturesGridList: FeaturesGridProps[] = [
   },
 
   {
-    title: "Hands On Projects",
+    title: "Hands-On Projects",
     text: "Build real-world applications with TensorFlow, PyTorch, and cutting-edge tools",
     icon: (
       <svg
@@ -46,13 +46,14 @@ export const FeaturesGridList: FeaturesGridProps[] = [
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
+        strokeWidth={2}
+        strokeLinecap="round"
+        strokeLinejoin="round"
         className={ICON_CLASS}
         aria-hidden="true"
       >
-        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-        <path d="M16 3.128a4 4 0 0 1 0 7.744" />
-        <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-        <circle cx="9" cy="7" r="4" />
+        <path d="m16 18 6-6-6-6" />
+        <path d="m8 6-6 6 6 6" />
       </svg>
     ),
     id: "2",
@@ -69,8 +70,10 @@ export const FeaturesGridList: FeaturesGridProps[] = [
         className={ICON_CLASS}
         aria-hidden="true"
       >
-        <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
-        <circle cx="12" cy="8" r="6" />
+        <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+        <path d="M16 3.128a4 4 0 0 1 0 7.744" />
+        <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+        <circle cx="9" cy="7" r="4" />
       </svg>
     ),
     id: "3",
@@ -87,8 +90,8 @@ export const FeaturesGridList: FeaturesGridProps[] = [
         className={ICON_CLASS}
         aria-hidden="true"
       >
-        <path d="M12 6v6l4 2" />
-        <circle cx="12" cy="12" r="10" />
+        <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526" />
+        <circle cx="12" cy="8" r="6" />
       </svg>
     ),
     id: "4",
@@ -105,8 +108,8 @@ export const FeaturesGridList: FeaturesGridProps[] = [
         className={ICON_CLASS}
         aria-hidden="true"
       >
-        <path d="M16 7h6v6" />
-        <path d="m22 7-8.5 8.5-5-5L2 17" />
+        <path d="M12 6v6l4 2" />
+        <circle cx="12" cy="12" r="10" />
       </svg>
     ),
     id: "5",
