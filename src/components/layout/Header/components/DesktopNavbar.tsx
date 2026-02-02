@@ -3,7 +3,7 @@ import { Navigation } from "./Navigation";
 
 export const DesktopNavbar = () => {
   return (
-    <div className="hidden items-center gap-8 px-4 text-[16px] md:flex">
+    <div className="hidden items-center pr-4 text-[16px] sm:gap-7.75 md:flex">
       <Navigation />
       <CustomButton buttonText="Apply Now" variant="solid" />
     </div>

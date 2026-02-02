@@ -1,4 +1,4 @@
-export const FeaturesList = [
+export const HeroFeaturesList = [
   {
     id: "1",
     value: "95",

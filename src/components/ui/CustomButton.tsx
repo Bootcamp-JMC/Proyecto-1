@@ -13,13 +13,13 @@ export const CustomButton = ({
 }: CustomButtonProps) => {
   return (
     <button
-      className={`h-10 ${customWidth ? customWidth : "w-31.75"} rounded-[10px] ${
+      className={`h-10 ${customWidth ? customWidth : "w-31.75"} flex items-center justify-center rounded-[10px] ${
         variant === "solid"
           ? "bg-primary hover:bg-primary/90 cursor-pointer text-white"
           : "bg-white text-black hover:bg-gray-50"
-      } `}
+      }`}
     >
-      <span className="text-white">{buttonText}</span>
+      <span>{buttonText}</span>
     </button>
   );
 };
