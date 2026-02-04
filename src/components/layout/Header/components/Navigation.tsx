@@ -1,8 +1,20 @@
 import { CustomLink } from "../../../ui/Customlink";
 
-export const Navigation = () => {
+type NavigationType = "Mobile" | "Desktop";
+
+interface NavigationProps {
+  NavigationType: NavigationType;
+}
+
+export const Navigation = ({ NavigationType }: NavigationProps) => {
   return (
-    <div className="flex gap-8">
+    <div
+      className={` ${
+        NavigationType === "Mobile"
+          ? "flex w-full flex-col gap-4"
+          : "flex gap-8"
+      }`}
+    >
       <CustomLink linkText="Curriculum" linkTo="/curriculum" />
       <CustomLink linkText="Success Stories" linkTo="/success-stories" />
       <CustomLink linkText="Pricing" linkTo="/pricing" />

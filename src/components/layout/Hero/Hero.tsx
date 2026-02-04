@@ -2,7 +2,7 @@ import { HeroButtons } from "./components/HeroButtons";
 import { HeroDescription } from "./components/HeroDescription";
 import { HeroTitle } from "./components/HeroTitle";
 import { HeroLabel } from "./components/HeroLabel";
-import { HeroFeaturesList } from "./components/HeroFeaturesList";
+import { HERO_FEATURES_LIST } from "./Data/HERO_FEATURES_LIST";
 import { HeroFeatures } from "./components/HeroFeatures";
 
 export const Hero = () => {
@@ -15,7 +15,7 @@ export const Hero = () => {
           <HeroDescription />
           <HeroButtons />
           <div className="w-max-2xl mx-auto mt-16 grid max-w-2xl grid-cols-3 gap-8">
-            <HeroFeatures features={HeroFeaturesList} />
+            <HeroFeatures features={HERO_FEATURES_LIST} />
           </div>
         </div>
       </div>
