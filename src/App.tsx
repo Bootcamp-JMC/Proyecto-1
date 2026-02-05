@@ -4,6 +4,7 @@ import { Header } from "./components/layout/Header";
 
 import "./style.css";
 import { Features } from "./components/layout/Features/Features";
+import { Curriculum } from "./components/layout/Curriculum/Curriculum";
 
 const App = () => {
   return (
@@ -14,10 +15,11 @@ const App = () => {
       {/* Hero */}
       <Hero />
 
-      {/* {Features} */}
+      {/* Features */}
       <Features />
 
       {/* Curriculum */}
+      <Curriculum />
     </BrowserRouter>
   );
 };
