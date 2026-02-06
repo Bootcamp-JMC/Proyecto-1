@@ -8,7 +8,7 @@ interface CardList {
 export const CurriculumGrid = ({ cards }: CardList) => {
   return cards.map((card) => (
     <div
-      className="rounded-2xl border border-gray-200 bg-white shadow-lg"
+      className="rounded-2xl border border-gray-200 bg-white shadow-lg hover:shadow-xl"
       key={card.step}
     >
       <div className="px-8 py-8">

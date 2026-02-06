@@ -15,7 +15,7 @@ export const Curriculum = () => {
             <CurriculumGrid cards={CURRICULUM_CARD_LIST} />
           </div>
 
-          <div className="m-12">
+          <div className="mt-12">
             <CurriculumButton />
           </div>
         </div>
