@@ -1,4 +1,4 @@
-import { FeaturesGridListProps } from "./FeaturesGridList";
+import { FeaturesGridListProps } from "./data/FEATURES_GRID_LIST";
 
 export const FeaturesGrid = ({ featuresList }: FeaturesGridListProps) => {
   return featuresList.map((feature) => (

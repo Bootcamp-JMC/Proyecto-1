@@ -8,17 +8,15 @@ export const Curriculum = () => {
   return (
     <>
       <div className="bg-linear-to-br from-purple-50 to-white py-40">
-        <div className="container mx-auto px-4 text-center lg:px-8">
-          <div className="mx-auto max-w-4xl text-center">
-            <CurriculumTitle />
-            <CurriculumDescription />
-            <div className="mt-16 grid gap-8 md:grid-cols-2">
-              <CurriculumGrid cards={CURRICULUM_CARD_LIST} />
-            </div>
+        <div className="container mx-auto text-center">
+          <CurriculumTitle />
+          <CurriculumDescription />
+          <div className="mx-auto mt-16 grid max-w-7xl gap-8 md:px-6 lg:grid-cols-2 lg:px-8 xl:px-16">
+            <CurriculumGrid cards={CURRICULUM_CARD_LIST} />
+          </div>
 
-            <div className="m-12">
-              <CurriculumButton />
-            </div>
+          <div className="m-12">
+            <CurriculumButton />
           </div>
         </div>
       </div>

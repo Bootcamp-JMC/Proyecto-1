@@ -1,7 +1,7 @@
-import { FeaturesDescription } from "./Components/FeaturesDescription";
-import { FeaturesTitle } from "./Components/FeaturesTitle";
-import { FeaturesGrid } from "./Components/GridComponents/FeaturesGrid";
-import { FeaturesGridList } from "./Components/GridComponents/FeaturesGridList";
+import { FeaturesDescription } from "./components/FeaturesDescription";
+import { FeaturesTitle } from "./components/FeaturesTitle";
+import { FeaturesGrid } from "./components/FeaturesGrid";
+import { FeaturesGridList } from "./components/data/FEATURES_GRID_LIST";
 
 export const Features = () => {
   return (
