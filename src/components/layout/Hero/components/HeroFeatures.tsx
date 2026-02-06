@@ -1,12 +1,21 @@
-import { FeaturesHero } from "./FeaturesHero";
-import { FeaturesList } from "./FeaturesList";
+interface FeatureProps {
+  id: string;
+  label: string;
+  value: string;
+  valueIcon: string;
+}
 
-export const HeroFeatures = () => {
-  return (
-    <>
-      <div className="flex justify-between gap-5 sm:mx-1 sm:gap-18 md:mx-2 md:px-20 lg:px-40">
-        <FeaturesHero features={FeaturesList} />
+interface Feature {
+  features: FeatureProps[];
+}
+
+export const HeroFeatures = ({ features }: Feature) => {
+  return features.map((feature) => (
+    <div key={feature.id}>
+      <div className="flex items-center justify-center text-4xl font-bold text-purple-600">
+        {feature.value + feature.valueIcon}
       </div>
-    </>
-  );
+      <p className="mt-2 text-center text-sm text-gray-600">{feature.label}</p>
+    </div>
+  ));
 };

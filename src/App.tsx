@@ -1,4 +1,4 @@
-import { Hero } from "./components/layout/Hero/Hero";
+import { Hero } from "./components/layout/Hero";
 import { BrowserRouter } from "react-router";
 import { Header } from "./components/layout/Header";
 
