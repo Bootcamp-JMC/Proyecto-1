@@ -17,7 +17,7 @@ export const MobileNavbar = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute top-[101%] right-0 w-full border-b border-gray-200 bg-white/90 px-4 py-4 backdrop-blur-lg">
+        <div className="absolute top-full right-0 w-full border-y border-gray-200 bg-white/97 p-4 backdrop-blur-lg">
           <div className="flex flex-col gap-4">
             <Navigation NavigationType="Mobile" />
             <CustomButton
