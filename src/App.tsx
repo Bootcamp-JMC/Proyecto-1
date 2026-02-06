@@ -3,7 +3,7 @@ import { BrowserRouter } from "react-router";
 import { Header } from "./components/layout/Header";
 
 import "./style.css";
-import { Features } from "./components/layout/Features/Features";
+import { Features } from "./components/layout/Features";
 
 const App = () => {
   return (
