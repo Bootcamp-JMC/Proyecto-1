@@ -7,7 +7,7 @@ import { HeroFeatures } from "./components/HeroFeatures";
 
 export const Hero = () => {
   return (
-    <div className="bg-linear-to-r from-purple-50 via-white to-purple-50 pt-36">
+    <div className="pt-36">
       <div className="container mx-auto px-4 text-center lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <HeroLabel />

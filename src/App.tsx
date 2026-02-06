@@ -10,14 +10,15 @@ const App = () => {
     <BrowserRouter>
       {/* Header */}
       <Header />
+      <div className="bg-linear-to-r from-purple-50 via-white to-purple-50">
+        {/* Hero */}
+        <Hero />
 
-      {/* Hero */}
-      <Hero />
+        {/* {Features} */}
+        <Features />
 
-      {/* {Features} */}
-      <Features />
-
-      {/* Curriculum */}
+        {/* Curriculum */}
+      </div>
     </BrowserRouter>
   );
 };
