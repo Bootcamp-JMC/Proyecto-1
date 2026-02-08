@@ -21,9 +21,9 @@ export const CustomButton = ({
         variant === "solid"
           ? "bg-primary hover:bg-primary/90 cursor-pointer text-white"
           : "bg-white text-black hover:bg-gray-50"
-      } `}
+      }`}
     >
-      <span className="text-white">{buttonText}</span>
+      <span>{buttonText}</span>
     </button>
   );
 };

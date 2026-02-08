@@ -1,17 +1,17 @@
-export interface FeaturesGridProps {
+export interface FeaturesGrid {
   title: string;
   text: string;
-  icon: any;
+  icon: React.ReactNode;
   id: string;
 }
 
-export interface FeaturesGridListProps {
-  featuresList: FeaturesGridProps[];
+export interface FeaturesGridList {
+  featuresList: FeaturesGrid[];
 }
 const ICON_CLASS =
-  "h-14 w-14  rounded-[14px] bg-purple-100 stroke-current stroke-2 p-[14px] text-purple-600 mb-6 border-purple-500 group-hover:bg-purple-600 group-hover:text-white ";
+  "h-14 w-14 rounded-[14px] bg-purple-100 stroke-current stroke-2 p-[14px] text-purple-600 mb-6 border-purple-500 group-hover:bg-purple-600 group-hover:text-white";
 
-export const FeaturesGridList: FeaturesGridProps[] = [
+export const FEATURES_GRID_LIST: FeaturesGrid[] = [
   {
     title: "AI Fundamentals",
     text: "Deep dive into neural networks, deep learning, and modern AI architectures",

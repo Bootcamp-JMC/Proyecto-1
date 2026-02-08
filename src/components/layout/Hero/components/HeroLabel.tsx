@@ -1,4 +1,4 @@
-import { StarIcon } from "./StarIcon";
+import { StarIcon } from "../../../ui/StarIcon";
 
 export const HeroLabel = () => {
   return (
