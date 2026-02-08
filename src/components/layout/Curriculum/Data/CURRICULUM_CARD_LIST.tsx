@@ -1,4 +1,5 @@
 export interface CurriculumItemData {
+  id: string;
   step: number;
   weeks: string;
   title: string;
@@ -7,6 +8,7 @@ export interface CurriculumItemData {
 
 export const CURRICULUM_CARD_LIST: CurriculumItemData[] = [
   {
+    id: "1",
     step: 1,
     weeks: "Weeks 1-3",
     title: "Python & Data Science Foundations",
@@ -18,6 +20,7 @@ export const CURRICULUM_CARD_LIST: CurriculumItemData[] = [
     ],
   },
   {
+    id: "2",
     step: 2,
     weeks: "Weeks 4-6",
     title: "Machine Learning Fundamentals",
@@ -29,6 +32,7 @@ export const CURRICULUM_CARD_LIST: CurriculumItemData[] = [
     ],
   },
   {
+    id: "3",
     step: 3,
     weeks: "Weeks 7-9",
     title: "Deep Learning & Neural Networks",
@@ -40,6 +44,7 @@ export const CURRICULUM_CARD_LIST: CurriculumItemData[] = [
     ],
   },
   {
+    id: "4",
     step: 4,
     weeks: "Weeks 10-12",
     title: "Advanced AI & Capstone",
