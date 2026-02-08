@@ -5,14 +5,10 @@ import { FEATURES_GRID_LIST } from "./components/data/FEATURES_GRID_LIST";
 
 export const Features = () => {
   return (
-    <div className="my-56">
-      <div className="container mx-auto px-4 text-center">
-        <div className="mx-auto h-full w-full text-center">
-          <FeaturesTitle />
-          <FeaturesDescription />
-          <FeaturesGrid featuresList={FEATURES_GRID_LIST} />
-        </div>
-      </div>
+    <div className="container mx-auto h-full w-full px-4 py-56 text-center">
+      <FeaturesTitle />
+      <FeaturesDescription />
+      <FeaturesGrid featuresList={FEATURES_GRID_LIST} />
     </div>
   );
 };
