@@ -1,23 +1,27 @@
-import { Hero } from "./components/layout/Hero";
+// import { Hero } from "./components/layout/Hero";
 import { BrowserRouter } from "react-router";
 import { Header } from "./components/layout/Header";
 
 import "./style.css";
-import { Features } from "./components/layout/Features";
+import { Pricing } from "./components/layout/Pricing";
+// import { Features } from "./components/layout/Features";
 
 const App = () => {
   return (
     <BrowserRouter>
       {/* Header */}
       <Header />
-      <div className="bg-linear-to-r from-purple-50 via-white to-purple-50">
+      <div className="mt-16.25 bg-linear-to-r from-purple-50 via-white to-purple-50">
         {/* Hero */}
-        <Hero />
+        {/* <Hero /> */}
 
         {/* {Features} */}
-        <Features />
+        {/* <Features /> */}
 
         {/* Curriculum */}
+
+        {/* {Pricing} */}
+        <Pricing />
       </div>
     </BrowserRouter>
   );
