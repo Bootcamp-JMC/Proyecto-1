@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router";
 import { Header } from "./components/layout/Header";
 
 import "./style.css";
+import { Pricing } from "./components/layout/Pricing";
 import { Features } from "./components/layout/Features";
 import { Testimonios } from "./components/layout/Testimonios";
 import { Curriculum } from "./components/layout/Curriculum";
@@ -19,6 +20,8 @@ const App = () => {
         <Features />
         {/* Curriculum */}
         <Curriculum />
+        {/* {Pricing} */}
+        <Pricing />
       </div>
       {/* Testimonios */}
       <Testimonios />
