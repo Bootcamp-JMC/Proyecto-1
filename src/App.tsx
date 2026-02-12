@@ -14,10 +14,8 @@ const App = () => {
       <div className="bg-linear-to-r from-purple-50 via-white to-purple-50">
         {/* Hero */}
         <Hero />
-
         {/* Features */}
         <Features />
-
         {/* Curriculum */}
         <Curriculum />
       </div>
