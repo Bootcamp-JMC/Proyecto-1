@@ -9,9 +9,7 @@ export const CallToAction = () => {
       <div className="mx-auto max-w-4xl rounded-3xl bg-linear-to-br from-purple-600 via-violet-600 to-purple-700 px-13 py-12 text-white shadow-2xl">
         <CallToActionTitle />
         <CallToActionDescription />
-
         <CallToActionButtons />
-
         <CallToActionFooter />
       </div>
     </div>

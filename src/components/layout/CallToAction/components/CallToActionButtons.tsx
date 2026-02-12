@@ -6,7 +6,7 @@ export const CallToActionButtons = () => {
       <button className="flex h-14 w-42.5 items-center justify-center gap-2 rounded-[14px] bg-white text-purple-600">
         Apply Now <ArrowRight size={20} className="mt-px" />
       </button>
-      <button className="flex h-14.75 w-62 items-center justify-center gap-2 rounded-[14px] border-2 border-white">
+      <button className="flex h-14.75 w-62 cursor-pointer items-center justify-center gap-2 rounded-[14px] border-2 border-white">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"

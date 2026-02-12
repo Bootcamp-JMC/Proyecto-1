@@ -15,7 +15,6 @@ export const Pricing = () => {
           <PricingOutline />
           <PricingSolid />
         </div>
-
         <PricingFooter />
       </div>
     </div>

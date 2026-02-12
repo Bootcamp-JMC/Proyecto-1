@@ -20,15 +20,15 @@ const App = () => {
         <Hero />
         {/* Features */}
         <Features />
-        {/* {CallToAction} */}
-        <CallToAction />
         {/* Curriculum */}
         <Curriculum />
+        {/* Testimonios */}
+        <Testimonios />
         {/* {Pricing} */}
         <Pricing />
+        {/* {CallToAction} */}
+        <CallToAction />
       </div>
-      {/* Testimonios */}
-      <Testimonios />
     </BrowserRouter>
   );
 };
