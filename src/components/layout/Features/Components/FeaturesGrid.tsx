@@ -1,6 +1,6 @@
-import { FeaturesGridListProps } from "./data/FEATURES_GRID_LIST";
+import { FeaturesGridList } from "./data/FEATURES_GRID_LIST";
 
-export const FeaturesGrid = ({ featuresList }: FeaturesGridListProps) => {
+export const FeaturesGrid = ({ featuresList }: FeaturesGridList) => {
   return (
     <div className="mt-16 grid gap-8 text-left sm:px-2 md:grid-cols-2 md:px-2 lg:grid-cols-3 lg:px-4">
       {featuresList.map((feature) => (

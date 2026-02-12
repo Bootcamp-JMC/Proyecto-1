@@ -3,7 +3,7 @@ import { HeroDescription } from "./components/HeroDescription";
 import { HeroTitle } from "./components/HeroTitle";
 import { HeroLabel } from "./components/HeroLabel";
 import { HeroFeatures } from "./components/HeroFeatures";
-import { HERO_FEATURES_LIST } from "./Data/HERO_FEATURES_LIST";
+import { HERO_FEATURES_LIST } from "./data/HERO_FEATURES_LIST";
 
 export const Hero = () => {
   return (
