@@ -5,6 +5,7 @@ import { Header } from "./components/layout/Header";
 import "./style.css";
 import { Features } from "./components/layout/Features";
 import { Testimonios } from "./components/layout/Testimonios";
+import { Curriculum } from "./components/layout/Curriculum/Curriculum";
 
 const App = () => {
   return (
@@ -14,11 +15,10 @@ const App = () => {
       <div className="bg-linear-to-r from-purple-50 via-white to-purple-50 pt-16.25">
         {/* Hero */}
         <Hero />
-
-        {/* {Features} */}
+        {/* Features */}
         <Features />
-
         {/* Curriculum */}
+        <Curriculum />
       </div>
       {/* Testimonios */}
       <Testimonios />
