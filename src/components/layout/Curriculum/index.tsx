@@ -21,6 +21,7 @@ export const Curriculum = () => {
             customWidth="w-[226px]"
             customHeight="h-14"
             customRounded="rounded-[14px]"
+            classNames="mx-auto"
           />
         </div>
       </div>

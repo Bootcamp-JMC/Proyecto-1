@@ -1,10 +1,12 @@
-import { Hero } from "./components/layout/Hero";
 import { BrowserRouter } from "react-router";
 import { Header } from "./components/layout/Header";
 
 import "./style.css";
-import { Pricing } from "./components/layout/Pricing";
+
+import { CallToAction } from "./components/layout/CallToAction/CallToAction";
 import { Features } from "./components/layout/Features";
+import { Hero } from "./components/layout/Hero";
+import { Pricing } from "./components/layout/Pricing";
 import { Testimonios } from "./components/layout/Testimonios";
 import { Curriculum } from "./components/layout/Curriculum";
 
@@ -20,11 +22,13 @@ const App = () => {
         <Features />
         {/* Curriculum */}
         <Curriculum />
+        {/* Testimonios */}
+        <Testimonios />
         {/* {Pricing} */}
         <Pricing />
+        {/* {CallToAction} */}
+        <CallToAction />
       </div>
-      {/* Testimonios */}
-      <Testimonios />
     </BrowserRouter>
   );
 };

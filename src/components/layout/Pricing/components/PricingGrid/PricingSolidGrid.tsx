@@ -20,7 +20,7 @@ export const PricingSolid = () => {
           customHeight="h-14"
           customRounded="rounded-[14px]"
           customTextColor="text-purple-900"
-          classNames="font-semibold"
+          classNames="font-semibold cursor-pointer"
         />
       </div>
     </div>
