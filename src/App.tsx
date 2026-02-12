@@ -5,24 +5,26 @@ import { Header } from "./components/layout/Header";
 import "./style.css";
 import { Pricing } from "./components/layout/Pricing";
 import { Features } from "./components/layout/Features";
+import { Testimonios } from "./components/layout/Testimonios";
+import { Curriculum } from "./components/layout/Curriculum";
 
 const App = () => {
   return (
     <BrowserRouter>
       {/* Header */}
       <Header />
-      <div className="mt-16.25 bg-linear-to-r from-purple-50 via-white to-purple-50">
+      <div className="bg-linear-to-r from-purple-50 via-white to-purple-50 pt-16.25">
         {/* Hero */}
         <Hero />
-
-        {/* {Features} */}
+        {/* Features */}
         <Features />
-
         {/* Curriculum */}
-
+        <Curriculum />
         {/* {Pricing} */}
         <Pricing />
       </div>
+      {/* Testimonios */}
+      <Testimonios />
     </BrowserRouter>
   );
 };
