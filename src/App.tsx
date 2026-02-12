@@ -5,7 +5,7 @@ import { Header } from "./components/layout/Header";
 import "./style.css";
 import { Features } from "./components/layout/Features";
 import { Testimonios } from "./components/layout/Testimonios";
-import { Curriculum } from "./components/layout/Curriculum/Curriculum";
+import { Curriculum } from "./components/layout/Curriculum";
 
 const App = () => {
   return (
