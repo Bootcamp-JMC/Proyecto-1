@@ -4,7 +4,6 @@ import { Header } from "./components/layout/Header";
 
 import "./style.css";
 import { Features } from "./components/layout/Features";
-import { Testimonios } from "./components/layout/Testimonios";
 import { Curriculum } from "./components/layout/Curriculum/Curriculum";
 
 const App = () => {
@@ -12,7 +11,7 @@ const App = () => {
     <BrowserRouter>
       {/* Header */}
       <Header />
-      <div className="bg-linear-to-r from-purple-50 via-white to-purple-50 pt-16.25">
+      <div className="bg-linear-to-r from-purple-50 via-white to-purple-50">
         {/* Hero */}
         <Hero />
         {/* Features */}
@@ -20,8 +19,6 @@ const App = () => {
         {/* Curriculum */}
         <Curriculum />
       </div>
-      {/* Testimonios */}
-      <Testimonios />
     </BrowserRouter>
   );
 };
