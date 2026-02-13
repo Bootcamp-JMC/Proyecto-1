@@ -5,8 +5,8 @@ import { Header } from "./components/layout/Header";
 import "./style.css";
 import { Features } from "./components/layout/Features";
 
-import { Testimonios } from "./components/layout/Testimonios";
 import { Curriculum } from "./components/layout/Curriculum";
+import { Footer } from "./components/layout/Footer";
 
 const App = () => {
   return (
@@ -21,6 +21,8 @@ const App = () => {
         {/* Curriculum */}
         <Curriculum />
       </div>
+      {/* {Footer} */}
+      <Footer />
     </BrowserRouter>
   );
 };
