@@ -10,9 +10,7 @@ export const Navigation = ({ NavigationType }: NavigationProps) => {
   return (
     <div
       className={`flex ${
-        NavigationType === "Mobile"
-          ? "w-full flex-col gap-4"
-          : "gap-8"
+        NavigationType === "Mobile" ? "w-full flex-col gap-4" : "gap-8"
       }`}
     >
       <CustomLink linkText="Curriculum" linkTo="/curriculum" />
