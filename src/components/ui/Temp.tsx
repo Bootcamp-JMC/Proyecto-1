@@ -5,7 +5,7 @@ interface CustomLink {
   linkText: string;
 }
 
-export const CustomLink = ({ linkText, linkTo = "" }: CustomLink) => {
+export const Temp1 = ({ linkText, linkTo = "" }: CustomLink) => {
   return (
     <Link to={linkTo} className="hover:text-primary text-gray-700">
       {linkText}

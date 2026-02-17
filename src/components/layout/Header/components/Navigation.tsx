@@ -1,4 +1,4 @@
-import { CustomLink } from "../../../ui/Customlink";
+import { Temp1 } from "../../../ui/Temp";
 
 type NavigationType = "Mobile" | "Desktop";
 
@@ -13,10 +13,10 @@ export const Navigation = ({ NavigationType }: NavigationProps) => {
         NavigationType === "Mobile" ? "w-full flex-col gap-4" : "gap-8"
       }`}
     >
-      <CustomLink linkText="Curriculum" linkTo="/curriculum" />
-      <CustomLink linkText="Success Stories" linkTo="/success-stories" />
-      <CustomLink linkText="Pricing" linkTo="/pricing" />
-      <CustomLink linkText="About" linkTo="/about" />
+      <Temp1 linkText="Curriculum" linkTo="/curriculum" />
+      <Temp1 linkText="Success Stories" linkTo="/success-stories" />
+      <Temp1 linkText="Pricing" linkTo="/pricing" />
+      <Temp1 linkText="About" linkTo="/about" />
     </div>
   );
 };
