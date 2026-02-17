@@ -1,4 +1,4 @@
-import { FeaturesGridList } from "./data/FEATURES_GRID_LIST";
+import { FeaturesGridList } from "../data/FEATURES_GRID_LIST";
 
 export const FeaturesGrid = ({ featuresList }: FeaturesGridList) => {
   return (

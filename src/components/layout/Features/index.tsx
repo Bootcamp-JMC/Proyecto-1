@@ -1,7 +1,7 @@
 import { FeaturesDescription } from "./components/FeaturesDescription";
 import { FeaturesTitle } from "./components/FeaturesTitle";
 import { FeaturesGrid } from "./components/FeaturesGrid";
-import { FEATURES_GRID_LIST } from "./components/data/FEATURES_GRID_LIST";
+import { FEATURES_GRID_LIST } from "./data/FEATURES_GRID_LIST";
 
 export const Features = () => {
   return (
