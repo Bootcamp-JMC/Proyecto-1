@@ -1,7 +1,8 @@
 import { CustomButton } from "../../ui/CustomButton";
-import { CurriculumTitle } from "./components/CurriculumTitle";
 import { CurriculumDescription } from "./components/CurriculumDescription";
 import { CurriculumGrid } from "./components/CurriculumGrid/CurriculumGrid";
+
+import { CurriculumTitle } from "./components/CurriculumTitle";
 import { CURRICULUM_CARD_LIST } from "./data/CURRICULUM_CARD_LIST";
 
 export const Curriculum = () => {
