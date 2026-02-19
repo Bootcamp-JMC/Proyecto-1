@@ -1,4 +1,4 @@
-import { CustomLink } from "../../../ui/Customlink";
+import { CustomLink } from "../../../ui/CustomLink";
 
 type NavigationType = "Mobile" | "Desktop";
 
