@@ -9,6 +9,7 @@ import { Hero } from "./components/layout/Hero";
 import { Pricing } from "./components/layout/Pricing";
 import { Testimonios } from "./components/layout/Testimonios";
 import { Curriculum } from "./components/layout/Curriculum";
+import { Footer } from "./components/layout/Footer";
 
 const App = () => {
   return (
@@ -29,6 +30,8 @@ const App = () => {
         {/* {CallToAction} */}
         <CallToAction />
       </div>
+      {/* {Footer} */}
+      <Footer />
     </BrowserRouter>
   );
 };
