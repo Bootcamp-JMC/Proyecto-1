@@ -4,9 +4,18 @@ import { CurriculumDescription } from "./components/CurriculumDescription";
 import { CurriculumGrid } from "./components/CurriculumGrid/CurriculumGrid";
 import { CURRICULUM_CARD_LIST } from "./data/CURRICULUM_CARD_LIST";
 
-export const Curriculum = () => {
+import { Ref } from "react";
+
+interface CurriculumProps {
+  curriculumRef: Ref<HTMLDivElement>;
+}
+
+export const Curriculum = ({ curriculumRef }: CurriculumProps) => {
   return (
-    <div className="bg-linear-to-br from-purple-50 to-white py-40">
+    <div
+      className="bg-linear-to-br from-purple-50 to-white py-40"
+      ref={curriculumRef}
+    >
       <div className="container mx-auto px-4 text-center">
         <CurriculumTitle />
         <CurriculumDescription />

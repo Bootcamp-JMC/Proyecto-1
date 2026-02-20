@@ -4,10 +4,18 @@ import { HeroTitle } from "./components/HeroTitle";
 import { HeroLabel } from "./components/HeroLabel";
 import { HeroFeatures } from "./components/HeroFeatures";
 import { HERO_FEATURES_LIST } from "./data/HERO_FEATURES_LIST";
+import { Ref } from "react";
 
-export const Hero = () => {
+interface PricingProps {
+  aboutRef: Ref<HTMLDivElement>;
+}
+
+export const Hero = ({ aboutRef }: PricingProps) => {
   return (
-    <div className="container mx-auto px-4 pt-36 text-center lg:px-8">
+    <div
+      className="container mx-auto px-4 pt-36 text-center lg:px-8"
+      ref={aboutRef}
+    >
       <div className="mx-auto max-w-4xl">
         <HeroLabel />
         <HeroTitle />
