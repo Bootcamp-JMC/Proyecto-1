@@ -2,7 +2,19 @@ import { MobileNavbar } from "./components/MobileNavbar";
 import { DesktopNavbar } from "./components/DesktopNavbar";
 import { Logo } from "../../ui/Logo";
 
-export const Header = () => {
+interface HeaderProps {
+  pricingRef: React.RefObject<HTMLDivElement | null>;
+  curriculumRef: React.RefObject<HTMLDivElement | null>;
+  successStoriesRef: React.RefObject<HTMLDivElement | null>;
+  aboutRef: React.RefObject<HTMLDivElement | null>;
+}
+
+export const Header = ({
+  pricingRef,
+  aboutRef,
+  curriculumRef,
+  successStoriesRef,
+}: HeaderProps) => {
   return (
     <header>
       <nav className="fixed top-0 right-0 left-0 z-50 h-16.25 border-b border-gray-200 bg-white/70 backdrop-blur-lg">
@@ -10,8 +22,18 @@ export const Header = () => {
           <div className="md:pl-4">
             <Logo variant="Purple" />
           </div>
-          <DesktopNavbar />
-          <MobileNavbar />
+          <DesktopNavbar
+            pricingRef={pricingRef}
+            aboutRef={aboutRef}
+            curriculumRef={curriculumRef}
+            successStoriesRef={successStoriesRef}
+          />
+          <MobileNavbar
+            pricingRef={pricingRef}
+            aboutRef={aboutRef}
+            curriculumRef={curriculumRef}
+            successStoriesRef={successStoriesRef}
+          />
         </div>
       </nav>
     </header>
